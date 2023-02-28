@@ -1,0 +1,34 @@
+For definitions and wffs
+
+2W: 1: Definition name:
+       [sym def]
+    2: State [def name] w/ [class/set syms]
+    N: *
+    
+2W: 1: Symbol for: [def name]
+    2: Symbol name: [sym]
+    N: *
+    
+2W: 1: Another name: [def name]
+    2: Another name: [def name]
+    N: [sym def]
+    
+2W: 1: Read as: [sym def]
+    2: Notation for: [def name w/ class/set syms]
+    N: *
+    
+1W: Q: Explain in simple English
+       [sym def]
+    A: [explanation]
+    N: [def name]
+
+1W: Q: [explanation]
+    A: [def name]
+    N: [sym def]
+    
+1W: Q: Given,
+       [A = ...] ...
+       Diagram for,
+       [sym def]
+    A: [diagram]
+    N: [explanation]
